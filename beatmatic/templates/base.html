@@ -42,8 +42,8 @@
         </div>
         <div id="navbar" class="navbar-right">
         <ul class="nav nav-list nav-pills">
-          <li><a href="#studio" onmouseover="$(this).addClass('bounce animated')" onmouseout="$(this).removeClass('bounce animated')">Studio</a></li>
-          <li><a href="#dove" onmouseover="$(this).addClass('bounce animated')" onmouseout="$(this).removeClass('bounce animated')">Dove siamo</a></li>
+          <li><a href="#studio" onmouseover="$(this).addClass('bounce animated')" onmouseout="$(this).removeClass('bounce animated')" onclick="$('#jstudio').toggleClass('bounce animated')">Studio</a></li>
+          <li><a href="#dove" onmouseover="$(this).addClass('bounce animated')" onmouseout="$(this).removeClass('bounce animated')" onclick="$('#jdove').toggleClass('bounce animated')">Dove siamo</a></li>
         </ul>
           <!--
           <form class="navbar-form navbar-right" role="form">
@@ -69,7 +69,7 @@
       </div>
     </div>
     <a id="studio"></a>
-    <div class="jumbotron center-block img-rounded">
+    <div id="jstudio" class="jumbotron center-block img-rounded">
       <div class="container">
         <h1>Studio</h1>
         <p>Situato a Casalecchio di Reno, a quindici minuti dal centro di Bologna, comodamente servito dai mezzi pubblici (Linea 20 – 89 – 94).<br><br>Realizzato in un seminterrato di 25 metri quadrati per poter contenere al meglio il suono, confortevole ed ottimamente insonorizzato è ideale per la registrazione di voci, chitarre, basso, tastiere, congas, timbales e bongos;  la produzione di arrangiamenti, basi musicali, post produzione e materiale promozionale per band musicali e dj.</p>
@@ -77,7 +77,7 @@
       </div>
     </div>
     <a id="dove"></a>
-    <div class="jumbotron center-block img-rounded">
+    <div id="jdove" class="jumbotron center-block img-rounded">
       <div class="container">
         <h1>Dove siamo</h1>
         <a href="https://www.google.it/maps/place/Via+Luigi+Galvani,+40033+Casalecchio+di+Reno+BO/@44.4773844,11.2819447,17z/data=!3m1!4b1!4m2!3m1!1s0x477fd5ccbf7d01c9:0xf1077dbf2258b1fa?hl=en"><img class="img-responsive img-rounded center-block" alt="Beatmatic Studio" src="{{ url_for('static', filename='img/mappa11.png') }}"></a>
