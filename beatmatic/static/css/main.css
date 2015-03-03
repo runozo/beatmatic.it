@@ -12,6 +12,7 @@ body {background-color: lightslategrey}
 .container p {padding-top:1em;font-family: 'Slabo 27px', serif;}
 a {color:chocolate}
 ul.nav a:hover {color: #fff !important; border:0;background:0;}
+.mixcloud {height: 254px}
 
 
 

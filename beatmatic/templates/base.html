@@ -43,6 +43,7 @@
         <div id="navbar" class="navbar-right">
         <ul class="nav nav-list nav-pills">
           <li><a href="#studio" onmouseover="$(this).addClass('bounce animated')" onmouseout="$(this).removeClass('bounce animated')" onclick="$('#jstudio').toggleClass('bounce animated')">Studio</a></li>
+          <li><a href="#mashup" onmouseover="$(this).addClass('bounce animated')" onmouseout="$(this).removeClass('bounce animated')" onclick="$('#mashup').toggleClass('bounce animated')">Mash UP</a></li>
           <li><a href="#dove" onmouseover="$(this).addClass('bounce animated')" onmouseout="$(this).removeClass('bounce animated')" onclick="$('#jdove').toggleClass('bounce animated')">Dove siamo</a></li>
         </ul>
           <!--
@@ -76,6 +77,19 @@
         <img class="img-responsive img-rounded center-block" alt="Beatmatic Studio" src="{{ url_for('static', filename='img/foto_studio_wide.jpg') }}">
       </div>
     </div>
+
+    <a id="mashup"></a>
+    <div id="jmashup" class="jumbotron center-block img-rounded">
+      <div class="container">
+        <h1>Mash UP</h1>
+        <p>La trasmissione radio in onda tutti i Martedì dalle 20:00 alle 21:00 sulle frequenze di <a href="http://www.radiocittafujiko.it/">Radio Città Fujiko</a>.<br>Se non ricevi le onde radio puoi seguire anche la <a href="http://radiocittafujiko.it/playogg/player.html" target="_blank">diretta in streaming</a>.<br>Se ti sei perso la diretta, infine <a href="https://www.mixcloud.com/ruffdselecta/">i podcast</a> su MixCloud.</p>
+        <div class="embed-responsive well mixcloud">
+          <iframe class="embed-responsive-item" height="250" src="https://www.mixcloud.com/widget/follow/?u=https%3A%2F%2Fwww.mixcloud.com%2Fruffdselecta%2F&amp;hide_followers=1" frameborder="0"></iframe>
+        </div>
+      </div>
+    </div>
+
+
     <a id="dove"></a>
     <div id="jdove" class="jumbotron center-block img-rounded">
       <div class="container">
@@ -86,6 +100,7 @@
     </div>
 
       <hr>
+
 
       <footer>
         <p>&copy; Beatmatic Studio 2014</p>
