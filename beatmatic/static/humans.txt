@@ -3,13 +3,15 @@
 
 # TEAM
 
-    <name> -- <role> -- <twitter>
+    Cesare Ghirelli -- development
+    Jacopo Puggioli -- owner
 
 # THANKS
 
-    <name>
+    All the open source community
 
 # TECHNOLOGY COLOPHON
 
     HTML5, CSS3
     jQuery, Modernizr
+    Flask
